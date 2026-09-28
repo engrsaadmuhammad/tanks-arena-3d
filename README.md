@@ -1,25 +1,35 @@
-# Tanks Game
+# 3D Tanks Game
 
-3D Tanks Game is a 2 player shooter game using one keyboard that uses simple game mechanics, integrating world and screen space UI, as well as game architecture and audio mixing...
+A two-player 3D tank shooter played on a single keyboard, written in C#.
 
-It was implemented following [Tanks Tutorial](https://learn.unity.com/project/tanks-tutorial) on Unity Learn Platform, it was originally recorded at Unite Boston 2015.
+## Overview
 
-## Images 
+Two players control tanks in the same arena and try to outlast each other. The project focuses on simple game mechanics, a clean game architecture, world-space and screen-space UI, and audio mixing.
 
+## Features
+
+- Two-player local gameplay on one keyboard
+- Shooting and health mechanics
+- World-space and screen-space UI
+- Structured game architecture (game manager, tank movement, shooting, health)
+- Audio mixing for game sounds
+- Round and winner announcements
+
+## Screenshots
 
 <p align="center">
- <img  src="Images/tanks.jpg" width="600px" >
- </br>
- <img  src="Images/playing.jpg" width="600px" >
- </br>
- <img  src="Images/winner_annoucement.jpg" width="600px" >
- </br>
+  <img src="Images/tanks.jpg" width="600px">
+  <br>
+  <img src="Images/playing.jpg" width="600px">
+  <br>
+  <img src="Images/winner_annoucement.jpg" width="600px">
 </p>
 
+## Tech Stack
 
+- C#
+- 3D game development
 
-## Links
+## Acknowledgements
 
-- [Tanks Tutorial](https://learn.unity.com/project/tanks-tutorial), contains video tutorial, instructions, snippet codes.. (The best place to start).
-- [Tanks Assets](https://assetstore.unity.com/packages/essentials/tutorial-projects/tanks-tutorial-46209).
-- [Tanks Tutorial Slides](https://connect-prd-cdn.unity.com/20190226/8099b21d-6563-424c-9e01-958fe16bdbf7_TanksTutorialSlideDeck_v1.pdf).
+Based on the Tanks tutorial project from Unity Learn.
